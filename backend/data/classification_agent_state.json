@@ -24,8 +24,8 @@
     },
     "SPY": {
       "status": "failed",
-      "last_attempt_at": "2026-08-12T15:13:59.941133+00:00",
-      "failure_count": 1
+      "last_attempt_at": "2026-08-13T15:13:50.717304+00:00",
+      "failure_count": 2
     },
     "VTI": {
       "status": "succeeded",
@@ -133,9 +133,11 @@
       "evidence_source_count": 1
     },
     "VIG": {
-      "status": "failed",
-      "last_attempt_at": "2026-08-12T15:16:23.066990+00:00",
-      "failure_count": 1
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:13:58.972533+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
     },
     "IJR": {
       "status": "succeeded",
@@ -143,31 +145,155 @@
       "changed": false,
       "confidence": 0.0,
       "evidence_source_count": 2
+    },
+    "VO": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:07.559714+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "XLK": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:14.224354+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "RSP": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:22.370357+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "SCHD": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:35.161255+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "ITOT": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:49.251304+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "EFA": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:14:58.605566+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "IWM": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:04.971090+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "BNDX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:11.099150+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "VYM": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:19.366359+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "VB": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:26.270207+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "SGOV": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:32.647146+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "QQQM": {
+      "status": "failed",
+      "last_attempt_at": "2026-08-13T15:15:39.476488+00:00",
+      "failure_count": 1
+    },
+    "IWD": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:52.676311+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "IVW": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:15:58.827838+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "VT": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:16:06.065213+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "SCHX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:16:20.891831+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "VCIT": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:16:34.016935+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "VEU": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-13T15:16:40.056514+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
     }
   },
   "retry_queue": [
     {
-      "ticker": "SPY",
+      "ticker": "QQQM",
       "failure_count": 1,
-      "last_attempt_at": "2026-08-12T15:13:59.941133+00:00",
-      "next_retry_at": "2026-08-12T17:14:11.612805+00:00",
-      "last_error": "1 validation error for ClassificationDecision\nexclusion_assessments.0.citations.0.quote\n  String should have at most 600 characters [type=string_too_long, input_value='[{\"ticker\": \"NVDA\", \"nam..., \"weight\": 0.0145635}]', input_type=str]\n    For further information visit https://errors.pydantic.dev/2"
+      "last_attempt_at": "2026-08-13T15:15:39.476488+00:00",
+      "next_retry_at": "2026-08-13T17:15:52.676274+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p... governance practices.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
     },
     {
-      "ticker": "VIG",
-      "failure_count": 1,
-      "last_attempt_at": "2026-08-12T15:16:23.066990+00:00",
-      "next_retry_at": "2026-08-12T17:16:28.653064+00:00",
-      "last_error": "1 validation error for ClassificationDecision\ntag_assessments.0.citations.1.quote\n  String should have at most 600 characters [type=string_too_long, input_value='[{\"ticker\": \"AVGO\", \"nam..., \"weight\": 0.0216137}]', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/"
+      "ticker": "SPY",
+      "failure_count": 2,
+      "last_attempt_at": "2026-08-13T15:13:50.717304+00:00",
+      "next_retry_at": "2026-08-13T19:13:58.972492+00:00",
+      "last_error": "2 validation errors for ClassificationDecision\ntag_assessments.0.citations.1.quote\n  String should have at most 600 characters [type=string_too_long, input_value='[{\"ticker\": \"NVDA\", \"nam..., \"weight\": 0.0145635}]', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v"
     }
   ],
   "last_run": {
-    "started_at": "2026-08-12T15:13:37.843728+00:00",
-    "completed_at": "2026-08-12T15:16:39.279735+00:00",
+    "started_at": "2026-08-13T15:13:50.717288+00:00",
+    "completed_at": "2026-08-13T15:16:51.180306+00:00",
     "status": "partial",
     "selected": 20,
     "succeeded": 18,
-    "changed": 2,
+    "changed": 0,
     "failed": 2
   }
 }
