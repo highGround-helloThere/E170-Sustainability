@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-12T15:16:39Z",
+  "version": "2026-08-15T14:40:50Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -358,7 +358,8 @@
         "climate",
         "governance"
       ],
-      "rank": 34
+      "rank": 34,
+      "exclusions": []
     },
     {
       "ticker": "IWD",
@@ -603,7 +604,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 61
+      "rank": 61,
+      "exclusions": []
     },
     {
       "ticker": "VTEB",
@@ -613,7 +615,8 @@
         "clean_water",
         "governance"
       ],
-      "rank": 62
+      "rank": 62,
+      "exclusions": []
     },
     {
       "ticker": "XLV",
@@ -623,7 +626,8 @@
         "human_rights",
         "governance"
       ],
-      "rank": 63
+      "rank": 63,
+      "exclusions": []
     },
     {
       "ticker": "VCSH",
@@ -632,7 +636,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 64
+      "rank": 64,
+      "exclusions": []
     },
     {
       "ticker": "VGIT",
@@ -641,7 +646,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 65
+      "rank": 65,
+      "exclusions": []
     },
     {
       "ticker": "MBB",
@@ -650,7 +656,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 66
+      "rank": 66,
+      "exclusions": []
     },
     {
       "ticker": "SCHB",
@@ -659,7 +666,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 67
+      "rank": 67,
+      "exclusions": []
     },
     {
       "ticker": "DGRO",
@@ -668,7 +676,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 68
+      "rank": 68,
+      "exclusions": []
     },
     {
       "ticker": "SPDW",
@@ -677,7 +686,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 69
+      "rank": 69,
+      "exclusions": []
     },
     {
       "ticker": "VONG",
@@ -687,7 +697,8 @@
         "climate",
         "governance"
       ],
-      "rank": 70
+      "rank": 70,
+      "exclusions": []
     },
     {
       "ticker": "XLE",
@@ -697,7 +708,19 @@
       "exclusions": [
         "fossil_fuels"
       ],
-      "rank": 71
+      "rank": 71,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-15T14:39:35.317920+00:00",
+        "last_changed_at": null,
+        "confidence": 0.95,
+        "evidence_source_count": 2
+      }
     },
     {
       "ticker": "JPST",
@@ -706,7 +729,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 72
+      "rank": 72,
+      "exclusions": []
     },
     {
       "ticker": "VNQ",
@@ -715,7 +739,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 73
+      "rank": 73,
+      "exclusions": []
     },
     {
       "ticker": "GOVT",
@@ -724,7 +749,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 74
+      "rank": 74,
+      "exclusions": []
     },
     {
       "ticker": "IUSB",
@@ -733,7 +759,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 75
+      "rank": 75,
+      "exclusions": []
     },
     {
       "ticker": "VBR",
@@ -742,7 +769,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 76
+      "rank": 76,
+      "exclusions": []
     },
     {
       "ticker": "JEPQ",
