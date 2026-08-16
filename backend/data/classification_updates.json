@@ -2,6 +2,42 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "574f34af-257b-49ca-b942-ebfb47e11ce6",
+      "ticker": "QUAL",
+      "name": "QUAL",
+      "asset_type": "etf",
+      "published_at": "2026-08-16T14:36:53.955939+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "governance",
+        "fair_labor"
+      ],
+      "new_tags": [
+        "fair_labor",
+        "governance"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "QUAL is a quality-factor ETF tracking the MSCI USA Quality Index. The evidence bundle contains only a fund profile and top holdings, with no sustainability mandate, methodology, or holdings-level sustainability data. The supported tags (governance, fair_labor) lack any specific evidence, and the fossil fuel exclusion cannot be assessed from the provided data. Therefore, all supported tags are marked insufficient, and the fossil fuel exclusion is insufficient.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "7b071c18-c8d4-4d53-8767-cb3316bf7dc4",
       "ticker": "VOO",
       "name": "VOO",
