@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-16T14:40:04Z",
+  "version": "2026-08-17T14:44:59Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -878,7 +878,8 @@
         "climate",
         "governance"
       ],
-      "rank": 86
+      "rank": 86,
+      "exclusions": []
     },
     {
       "ticker": "LQD",
@@ -907,7 +908,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 89
+      "rank": 89,
+      "exclusions": []
     },
     {
       "ticker": "TQQQ",
@@ -994,7 +996,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 98
+      "rank": 98,
+      "exclusions": []
     },
     {
       "ticker": "USHY",
@@ -1003,7 +1006,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 99
+      "rank": 99,
+      "exclusions": []
     },
     {
       "ticker": "MDY",
@@ -1012,7 +1016,8 @@
       "tags": [
         "governance"
       ],
-      "rank": 100
+      "rank": 100,
+      "exclusions": []
     },
     {
       "ticker": "WMT",
@@ -1036,12 +1041,24 @@
       "sector": "Retailing",
       "industry": "Internet Services and Retailing",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 2,
-      "rank": 102
+      "rank": 102,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-17T14:43:28.569457+00:00",
+        "last_changed_at": "2026-08-17T14:43:28.569457+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 2
+      }
     },
     {
       "ticker": "AAPL",
@@ -1119,13 +1136,25 @@
       "sector": "Technology",
       "industry": "Internet Services and Retailing",
       "tags": [
-        "renewable_energy",
         "climate",
+        "renewable_energy",
         "governance"
       ],
       "exclusions": [],
       "fortune_rank": 8,
-      "rank": 108
+      "rank": 108,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-17T14:44:05.020304+00:00",
+        "last_changed_at": "2026-08-17T14:44:05.020304+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "MCK",
