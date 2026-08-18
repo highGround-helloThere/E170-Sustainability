@@ -2,6 +2,42 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "3cbf9226-85b3-4f4b-b186-ae40b1013b2f",
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "asset_type": "stock",
+      "published_at": "2026-08-18T14:52:08.714615+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "renewable_energy",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "The evidence bundle contains only a market profile describing Meta's core business (social media, VR, AI). No evidence supports the renewable_energy or climate tags. The profile does not mention renewable energy, climate mitigation, or any sustainability operations. Therefore, both tags are removed due to insufficient evidence. The fossil_fuels exclusion is not applicable as there is no evidence of fossil fuel involvement.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "bedd3c1c-b849-4597-8d67-01b741180cba",
       "ticker": "AMZN",
       "name": "Amazon",
