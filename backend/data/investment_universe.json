@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-18T14:53:51Z",
+  "version": "2026-08-19T14:53:55Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -1863,12 +1863,24 @@
       "sector": "Industrials",
       "industry": "Construction and Farm Machinery",
       "tags": [
-        "sustainable_agriculture",
-        "clean_water"
+        "clean_water",
+        "sustainable_agriculture"
       ],
       "exclusions": [],
       "fortune_rank": 64,
-      "rank": 164
+      "rank": 164,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:52:07.855836+00:00",
+        "last_changed_at": "2026-08-19T14:52:07.855836+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 2
+      }
     },
     {
       "ticker": "NVDA",
@@ -2092,12 +2104,24 @@
       "sector": "Apparel",
       "industry": "Apparel",
       "tags": [
-        "circular_economy",
-        "fair_labor"
+        "fair_labor",
+        "circular_economy"
       ],
       "exclusions": [],
       "fortune_rank": 88,
-      "rank": 188
+      "rank": 188,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:52:23.339068+00:00",
+        "last_changed_at": "2026-08-19T14:52:23.339068+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "ORCL",
@@ -2575,12 +2599,24 @@
       "sector": "Business Services",
       "industry": "Financial Data Services",
       "tags": [
-        "governance",
-        "human_rights"
+        "human_rights",
+        "governance"
       ],
       "exclusions": [],
       "fortune_rank": 135,
-      "rank": 235
+      "rank": 235,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:53:00.687948+00:00",
+        "last_changed_at": "2026-08-19T14:53:00.687948+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "APO",
@@ -2723,12 +2759,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 148,
-      "rank": 248
+      "rank": 248,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:53:14.437237+00:00",
+        "last_changed_at": "2026-08-19T14:53:14.437237+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "OXY",
@@ -2773,12 +2821,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 152,
-      "rank": 252
+      "rank": 252,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:53:29.724829+00:00",
+        "last_changed_at": "2026-08-19T14:53:29.724829+00:00",
+        "confidence": 0.9,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "DHR",
@@ -2787,12 +2847,24 @@
       "sector": "Health Care",
       "industry": "Medical Products and Equipment",
       "tags": [
-        "clean_water",
-        "human_rights"
+        "human_rights",
+        "clean_water"
       ],
       "exclusions": [],
       "fortune_rank": 153,
-      "rank": 253
+      "rank": 253,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:53:34.761848+00:00",
+        "last_changed_at": "2026-08-19T14:53:34.761848+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 3
+      }
     },
     {
       "ticker": "GILD",
@@ -2902,12 +2974,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 163,
-      "rank": 263
+      "rank": 263,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-19T14:53:48.086946+00:00",
+        "last_changed_at": "2026-08-19T14:53:48.086946+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "MA",

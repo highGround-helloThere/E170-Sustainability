@@ -2,6 +2,274 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "32065b79-626c-4a3f-bfd5-10a8a47af6ea",
+      "ticker": "DE",
+      "name": "Deere",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:52:07.855836+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "sustainable_agriculture",
+        "clean_water"
+      ],
+      "new_tags": [
+        "clean_water",
+        "sustainable_agriculture"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Deere is a manufacturer of agricultural, construction, and forestry equipment. The evidence bundle contains only a market profile and a homepage link, with no specific sustainability claims, metrics, or operational details. Therefore, none of the supported tags can be confirmed as material, and the fossil fuel exclusion cannot be assessed.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "cf1dfd49-4b48-4282-be7b-a2b4efa206ff",
+      "ticker": "NKE",
+      "name": "Nike",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:52:23.339068+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "circular_economy",
+        "fair_labor"
+      ],
+      "new_tags": [
+        "fair_labor",
+        "circular_economy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "The evidence bundle contains only a market profile describing Nike's business operations and product lines. It does not provide any specific, measurable evidence of material circular economy or fair labor practices. The profile mentions no sustainability programs, outcomes, or certifications. Therefore, the supported tags 'circular_economy' and 'fair_labor' lack sufficient evidence and should be removed. The fossil fuels exclusion is not applicable as the profile shows no involvement in fossil fuel extraction or production.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "07f2d439-398e-4281-bccc-b98b50d76efd",
+      "ticker": "V",
+      "name": "Visa",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:53:00.687948+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "governance",
+        "human_rights"
+      ],
+      "new_tags": [
+        "human_rights",
+        "governance"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Visa is a payment technology company. The evidence bundle contains only a market profile with no specific sustainability claims or operational details. There is no evidence to support any of the sustainability tags, and no evidence of fossil fuel extraction or production. Therefore, all tags are assessed as insufficient, and the fossil fuel exclusion is not triggered.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "530d3b6c-1b30-4307-81d4-c3055eade44f",
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:53:14.437237+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "renewable_energy",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Duke Energy is a regulated utility with material operations in electricity generation and natural gas distribution. Its generation mix includes renewables, but also coal, natural gas, and nuclear. The evidence does not establish material renewable energy business or climate mitigation outcomes; it only describes the business segments and fuel sources. No evidence supports fair labor, human rights, biodiversity, clean water, sustainable agriculture, circular economy, or governance claims. The fossil fuel exclusion is triggered by material natural gas distribution and coal generation.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "ea04f812-f258-4dc7-82cd-3628d67e1119",
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:53:29.724829+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "renewable_energy",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "NextEra Energy is a major utility with significant renewable generation and storage operations, evidenced by its business summary. The fossil fuel exclusion is not triggered as the company's primary business is regulated electric and renewable generation, with only incidental participation in natural gas and oil production.",
+      "confidence": 0.9,
+      "accepted_assessments": [],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-19T14:53:29.724833+00:00",
+          "published_at": null,
+          "url": "https://www.nexteraenergy.com",
+          "content_sha256": "bfeaf02b41fcc335280866fe652a1f8cfb9d89112c25c34ac559e7436aef4568",
+          "quotes": [
+            "The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets.",
+            "owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities"
+          ],
+          "excerpt": "The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets. … owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "e55ed0af-107e-4f95-85bd-4d3da4c90e38",
+      "ticker": "DHR",
+      "name": "Danaher",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:53:34.761848+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "clean_water",
+        "human_rights"
+      ],
+      "new_tags": [
+        "human_rights",
+        "clean_water"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Danaher is a life sciences and diagnostics company. Evidence shows material operations in diagnostics and life sciences, with some sustainability reporting. The clean_water tag is not supported by specific evidence of water treatment or conservation business. The human_rights tag is not supported by specific evidence of human rights practices or responsible sourcing. No evidence of fossil fuel extraction or production.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "ab0cc7b4-c693-4c89-b891-0cf45ea7c896",
+      "ticker": "SO",
+      "name": "Southern Company",
+      "asset_type": "stock",
+      "published_at": "2026-08-19T14:53:48.086946+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "renewable_energy",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Southern Company is a regulated electric and gas utility with some renewable and battery storage operations, but the evidence bundle is limited to a single market profile. The profile mentions battery energy storage and microgrids, which support renewable_energy and climate tags, but there is no evidence of material climate mitigation or adaptation operations beyond general utility business. The fossil_fuels exclusion is not triggered because the profile does not mention fossil fuel extraction or production, and the company's primary business is regulated electricity and gas distribution.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "3cbf9226-85b3-4f4b-b186-ae40b1013b2f",
       "ticker": "META",
       "name": "Meta Platforms",
