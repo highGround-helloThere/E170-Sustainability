@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-19T14:53:55Z",
+  "version": "2026-08-20T14:56:23Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -3000,12 +3000,24 @@
       "sector": "Business Services",
       "industry": "Financial Data Services",
       "tags": [
-        "governance",
-        "human_rights"
+        "human_rights",
+        "governance"
       ],
       "exclusions": [],
       "fortune_rank": 164,
-      "rank": 264
+      "rank": 264,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-20T14:54:23.341823+00:00",
+        "last_changed_at": "2026-08-20T14:54:23.341823+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "CEG",
@@ -3018,7 +3030,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 165,
-      "rank": 265
+      "rank": 265,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-20T14:54:27.993806+00:00",
+        "last_changed_at": null,
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "HIG",
@@ -3403,12 +3427,24 @@
       "sector": "Business Services",
       "industry": "Waste Management",
       "tags": [
-        "circular_economy",
-        "climate"
+        "climate",
+        "circular_economy"
       ],
       "exclusions": [],
       "fortune_rank": 199,
-      "rank": 299
+      "rank": 299,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-20T14:55:14.474919+00:00",
+        "last_changed_at": "2026-08-20T14:55:14.474919+00:00",
+        "confidence": 0.9,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "LNG",
@@ -3585,12 +3621,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 217,
-      "rank": 317
+      "rank": 317,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-20T14:55:30.967394+00:00",
+        "last_changed_at": "2026-08-20T14:55:30.967394+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "IP",
@@ -3733,12 +3781,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "renewable_energy",
-        "climate"
+        "climate",
+        "renewable_energy"
       ],
       "exclusions": [],
       "fortune_rank": 230,
-      "rank": 330
+      "rank": 330,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-20T14:55:43.028249+00:00",
+        "last_changed_at": "2026-08-20T14:55:43.028249+00:00",
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "BLK",
