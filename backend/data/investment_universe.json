@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-20T14:56:23Z",
+  "version": "2026-08-21T14:55:16Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -4744,13 +4744,25 @@
       "sector": "Engineering & Construction",
       "industry": "Engineering & Construction",
       "tags": [
-        "clean_water",
         "climate",
-        "renewable_energy"
+        "renewable_energy",
+        "clean_water"
       ],
       "exclusions": [],
       "fortune_rank": 324,
-      "rank": 424
+      "rank": 424,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-21T14:53:36.880750+00:00",
+        "last_changed_at": "2026-08-21T14:53:36.880750+00:00",
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "APH",
@@ -5014,7 +5026,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 347,
-      "rank": 447
+      "rank": 447,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-21T14:54:06.084335+00:00",
+        "last_changed_at": null,
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "ES",
@@ -5275,7 +5299,19 @@
         "fossil_fuels"
       ],
       "fortune_rank": 371,
-      "rank": 471
+      "rank": 471,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-21T14:54:30.602658+00:00",
+        "last_changed_at": null,
+        "confidence": 1.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "IPG",
@@ -6088,7 +6124,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 448,
-      "rank": 548
+      "rank": 548,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-21T14:55:02.491791+00:00",
+        "last_changed_at": null,
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "FANG",

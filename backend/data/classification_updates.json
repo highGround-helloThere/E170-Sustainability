@@ -2,6 +2,60 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "9dad996e-1b0a-45e8-b7ac-009959a69e78",
+      "ticker": "EME",
+      "name": "EMCOR Group",
+      "asset_type": "stock",
+      "published_at": "2026-08-21T14:53:36.880750+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "clean_water",
+        "climate",
+        "renewable_energy"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy",
+        "clean_water"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "EMCOR Group is an engineering and construction company providing electrical, mechanical, and facilities services, including water and wastewater treatment systems and renewable energy services. The evidence supports the clean_water and renewable_energy tags, but climate tag lacks specific material evidence. No evidence for fossil fuel exclusion.",
+      "confidence": 0.8,
+      "accepted_assessments": [],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-21T14:53:36.880765+00:00",
+          "published_at": null,
+          "url": "https://emcorgroup.com",
+          "content_sha256": "32c6dda38228d82bf0c888911580f2b4f4643cfd3f469bb1fd2c5c5b5673c4f2",
+          "quotes": [
+            "renewable energy services",
+            "water and wastewater treatment systems"
+          ],
+          "excerpt": "renewable energy services … water and wastewater treatment systems"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "d3410c27-77f9-4b16-9dff-1411433b0b5f",
       "ticker": "MA",
       "name": "Mastercard",
