@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22T14:38:39Z",
+  "version": "2026-08-23T14:39:33Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -4672,12 +4672,24 @@
       "sector": "Energy",
       "industry": "Utilities: Gas and Electric",
       "tags": [
-        "clean_water",
-        "renewable_energy"
+        "renewable_energy",
+        "clean_water"
       ],
       "exclusions": [],
       "fortune_rank": 318,
-      "rank": 418
+      "rank": 418,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:37:37.874313+00:00",
+        "last_changed_at": "2026-08-23T14:37:37.874313+00:00",
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "AES",
@@ -8468,9 +8480,23 @@
       "tags": [
         "renewable_energy"
       ],
-      "exclusions": [],
+      "exclusions": [
+        "fossil_fuels"
+      ],
       "fortune_rank": 663,
-      "rank": 763
+      "rank": 763,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:38:02.672965+00:00",
+        "last_changed_at": "2026-08-23T14:38:02.672965+00:00",
+        "confidence": 0.95,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "VAC",
@@ -8688,12 +8714,24 @@
       "sector": "Engineering & Construction",
       "industry": "Engineering & Construction",
       "tags": [
-        "clean_water",
-        "climate"
+        "climate",
+        "clean_water"
       ],
       "exclusions": [],
       "fortune_rank": 684,
-      "rank": 784
+      "rank": 784,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:38:11.489702+00:00",
+        "last_changed_at": "2026-08-23T14:38:11.489702+00:00",
+        "confidence": 0.9,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "PSA",
@@ -9014,7 +9052,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 714,
-      "rank": 814
+      "rank": 814,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:38:17.401064+00:00",
+        "last_changed_at": null,
+        "confidence": 0.95,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "SIGI",
@@ -9606,7 +9656,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 768,
-      "rank": 868
+      "rank": 868,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:38:44.079724+00:00",
+        "last_changed_at": null,
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "TRU",
@@ -9939,12 +10001,24 @@
       "sector": "Engineering & Construction",
       "industry": "Engineering & Construction",
       "tags": [
-        "clean_water",
-        "climate"
+        "climate",
+        "clean_water"
       ],
       "exclusions": [],
       "fortune_rank": 800,
-      "rank": 900
+      "rank": 900,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:39:05.154468+00:00",
+        "last_changed_at": "2026-08-23T14:39:05.154468+00:00",
+        "confidence": 0.8,
+        "evidence_source_count": 3
+      }
     },
     {
       "ticker": "DECK",
@@ -10324,7 +10398,19 @@
       ],
       "exclusions": [],
       "fortune_rank": 834,
-      "rank": 934
+      "rank": 934,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-23T14:39:29.721920+00:00",
+        "last_changed_at": null,
+        "confidence": 0.8,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "ALIT",

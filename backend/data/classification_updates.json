@@ -2,6 +2,242 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "6ad8f199-3800-4595-bed3-6ef833a05029",
+      "ticker": "DTE",
+      "name": "DTE Energy",
+      "asset_type": "stock",
+      "published_at": "2026-08-23T14:37:37.874313+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "clean_water",
+        "renewable_energy"
+      ],
+      "new_tags": [
+        "renewable_energy",
+        "clean_water"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "DTE Energy is a regulated utility with significant fossil-fuel generation and gas distribution. The evidence shows some renewable and water-related operations, but the materiality is limited relative to its overall business. The clean_water and renewable_energy tags are supported by specific business activities, though renewable energy is a minor part. The fossil_fuels exclusion is triggered by material coal and natural gas operations.",
+      "confidence": 0.0,
+      "accepted_assessments": [],
+      "evidence": [],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "37ea94ec-04a8-434a-a557-f547e3edaec9",
+      "ticker": "LBRT",
+      "name": "Liberty Energy",
+      "asset_type": "stock",
+      "published_at": "2026-08-23T14:38:02.672965+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "renewable_energy"
+      ],
+      "new_tags": [
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Liberty Energy is an oil and gas services company focused on hydraulic fracturing for onshore oil and natural gas. The evidence shows no material renewable energy business; its geothermal mention is incidental. No evidence supports other sustainability tags. The fossil fuel exclusion applies due to material oil and gas services.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "provides hydraulic fracturing services and related technologies onshore oil, natural gas, and enhanced geothermal exploration and production companies"
+            }
+          ],
+          "rationale": "The company's core business is hydraulic fracturing services for oil and natural gas, which is material extraction/production support. This clearly falls under fossil fuel exclusion."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-23T14:38:02.672980+00:00",
+          "published_at": null,
+          "url": "https://www.libertyenergy.com",
+          "content_sha256": "ad599f841c63aeff6bb8521f60419f65d8c254469389823cc66acf3315932e88",
+          "quotes": [
+            "provides hydraulic fracturing services and related technologies onshore oil, natural gas, and enhanced geothermal exploration and production companies"
+          ],
+          "excerpt": "provides hydraulic fracturing services and related technologies onshore oil, natural gas, and enhanced geothermal exploration and production companies"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "f966220c-6a54-423e-ac30-27f0fd737c80",
+      "ticker": "TTEK",
+      "name": "Tetra Tech",
+      "asset_type": "stock",
+      "published_at": "2026-08-23T14:38:11.489702+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "clean_water",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "clean_water"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Tetra Tech's business summary explicitly describes consulting and engineering services focused on water, environment, and sustainable infrastructure, including water management, water treatment and reuse, climate change consulting, and greenhouse gas management. These are material business activities supporting the clean_water and climate tags. No evidence supports renewable_energy, fair_labor, human_rights, biodiversity, sustainable_agriculture, circular_economy, governance, or low_carbon. No evidence indicates fossil fuel extraction or production.",
+      "confidence": 0.9,
+      "accepted_assessments": [],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-23T14:38:11.489715+00:00",
+          "published_at": null,
+          "url": "https://www.tetratech.com",
+          "content_sha256": "2ea38a6ffe0e8cf8a245247399cc50e5125dc923289308e198a37eda6ee55aac",
+          "quotes": [
+            "industrial water treatment and reuse services",
+            "climate change consulting; greenhouse gas inventory assessment, certification, reduction, and management services"
+          ],
+          "excerpt": "industrial water treatment and reuse services … climate change consulting; greenhouse gas inventory assessment, certification, reduction, and management services"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "0896c392-24c6-4765-b799-c500fd17b74b",
+      "ticker": "MYRG",
+      "name": "MYR Group",
+      "asset_type": "stock",
+      "published_at": "2026-08-23T14:39:05.154468+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "clean_water",
+        "climate"
+      ],
+      "new_tags": [
+        "climate",
+        "clean_water"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "MYR Group is an electrical construction contractor with material operations in clean energy projects, electric vehicle charging infrastructure, and water/wastewater treatment facilities, supporting the climate and clean_water tags. Evidence of fair labor, human rights, biodiversity, sustainable agriculture, circular economy, and governance is insufficient or generic. No evidence of fossil fuel extraction or production.",
+      "confidence": 0.8,
+      "accepted_assessments": [],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-23T14:39:05.154480+00:00",
+          "published_at": null,
+          "url": "https://www.myrgroup.com",
+          "content_sha256": "07e2b186e8128cd96dbb202c97d18d8089a0461c620d94ea54b23be9417e9549",
+          "quotes": [
+            "clean energy projects, and electric vehicle charging infrastructure services"
+          ],
+          "excerpt": "clean energy projects, and electric vehicle charging infrastructure services"
+        },
+        {
+          "id": "official-home",
+          "kind": "official_web",
+          "title": "Official website",
+          "source": "Official company or fund website",
+          "retrieved_at": "2026-08-23T14:39:05.641889+00:00",
+          "published_at": "2026-08-23T12:41:29+00:00",
+          "url": "https://myrgroup.com/",
+          "content_sha256": "46fe33be94232bfbacf9ac8da389426df66f297f8bf4a50f3a564f8139cd4de3",
+          "quotes": [
+            "Through these efforts we’re supporting the clean energy transformation."
+          ],
+          "excerpt": "Through these efforts we’re supporting the clean energy transformation."
+        },
+        {
+          "id": "official-page-1",
+          "kind": "official_web",
+          "title": "Official sustainability page",
+          "source": "Official company or fund website",
+          "retrieved_at": "2026-08-23T14:39:05.785962+00:00",
+          "published_at": "2026-08-20T18:39:26+00:00",
+          "url": "https://myrgroup.com/sustainability/",
+          "content_sha256": "447ce6b93258036596bc0062b86c7d78b5448652f182a42727961bc066b5eda0",
+          "quotes": [
+            "We are at the forefront of the clean energy transformation underway across the globe."
+          ],
+          "excerpt": "We are at the forefront of the clean energy transformation underway across the globe."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "cdfdcc49-b33d-41e5-9293-5ef6db2393f6",
       "ticker": "KBR",
       "name": "KBR",
