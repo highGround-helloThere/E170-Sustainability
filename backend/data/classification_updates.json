@@ -2,6 +2,76 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "7bb75547-b8f7-4117-b2cb-11c04af2192e",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "asset_type": "stock",
+      "published_at": "2026-08-25T15:04:42.215699+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Marathon Petroleum is an integrated downstream energy company primarily engaged in crude oil refining and marketing, with a smaller renewable diesel segment. The evidence shows material fossil fuel refining and marketing operations, triggering the fossil_fuels exclusion. No evidence supports any sustainability category tags.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services."
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids."
+            }
+          ],
+          "rationale": "The company's primary business is refining crude oil and marketing refined petroleum products, and it also transports and markets natural gas and NGLs. These are material fossil fuel operations, clearly meeting the exclusion criteria."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-25T15:04:42.215711+00:00",
+          "published_at": null,
+          "url": "https://www.marathonpetroleum.com",
+          "content_sha256": "ecf5278d56e77163b30dad6d01bad0c313deb0e78a751c1f38118b6b9b5a522b",
+          "quotes": [
+            "The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services.",
+            "The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids."
+          ],
+          "excerpt": "The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. … The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "6ad8f199-3800-4595-bed3-6ef833a05029",
       "ticker": "DTE",
       "name": "DTE Energy",
