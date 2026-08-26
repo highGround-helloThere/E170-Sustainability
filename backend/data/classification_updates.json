@@ -2,6 +2,76 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "e3588d94-5b9f-4f58-9f4d-6a2ebb969097",
+      "ticker": "ET",
+      "name": "Energy Transfer",
+      "asset_type": "stock",
+      "published_at": "2026-08-26T15:52:00.816885+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Energy Transfer LP is a large midstream energy company whose core business involves transporting, storing, and processing natural gas, NGLs, crude oil, and refined products. The evidence bundle contains only a market profile describing these fossil-fuel-related operations. There is no evidence of material sustainability practices in any of the supported categories. The fossil fuel exclusion is clearly triggered by the company's primary business activities.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "owns and operates natural gas transportation pipelines and storage facilities; and approximately 12,200 miles of intrastate natural gas transportation pipelines and 20,090 miles of interstate natural gas pipelines"
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "owns and operates approximately 18,000 miles of crude oil trunk and gathering pipelines; and sells and distributes motor fuels and other petroleum products under the Sunoco and EcoMaxx brands"
+            }
+          ],
+          "rationale": "The company's primary business is the transportation, storage, and processing of natural gas, NGLs, crude oil, and refined products, which constitutes material fossil fuel infrastructure and transport. This clearly meets the exclusion criteria."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-26T15:52:00.816897+00:00",
+          "published_at": null,
+          "url": "https://energytransfer.com",
+          "content_sha256": "7b9fb4e4894c4d6cc3c7f081aa0b638df3ca7d8e93d18081d7106a5aafec1862",
+          "quotes": [
+            "owns and operates natural gas transportation pipelines and storage facilities; and approximately 12,200 miles of intrastate natural gas transportation pipelines and 20,090 miles of interstate natural gas pipelines",
+            "owns and operates approximately 18,000 miles of crude oil trunk and gathering pipelines; and sells and distributes motor fuels and other petroleum products under the Sunoco and EcoMaxx brands"
+          ],
+          "excerpt": "owns and operates natural gas transportation pipelines and storage facilities; and approximately 12,200 miles of intrastate natural gas transportation pipelines and 20,090 miles of interstate natural gas pipelines … owns and operates approximately 18,000 miles of crude oil trunk and gathering pipelines; and sells and distributes motor fuels and other petroleum products under the Sunoco and EcoMaxx brands"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "7bb75547-b8f7-4117-b2cb-11c04af2192e",
       "ticker": "MPC",
       "name": "Marathon Petroleum",
