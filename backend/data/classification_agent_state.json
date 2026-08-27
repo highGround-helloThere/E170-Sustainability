@@ -696,8 +696,8 @@
     },
     "XOM": {
       "status": "failed",
-      "last_attempt_at": "2026-08-26T15:51:00.340822+00:00",
-      "failure_count": 10
+      "last_attempt_at": "2026-08-27T23:46:50.193379+00:00",
+      "failure_count": 11
     },
     "GOOGL": {
       "status": "succeeded",
@@ -1128,8 +1128,8 @@
     },
     "XEL": {
       "status": "failed",
-      "last_attempt_at": "2026-08-26T15:51:19.231119+00:00",
-      "failure_count": 6
+      "last_attempt_at": "2026-08-27T23:46:58.554096+00:00",
+      "failure_count": 7
     },
     "DTE": {
       "status": "succeeded",
@@ -1217,8 +1217,8 @@
     },
     "NOV": {
       "status": "failed",
-      "last_attempt_at": "2026-08-26T15:51:32.092364+00:00",
-      "failure_count": 6
+      "last_attempt_at": "2026-08-27T23:47:04.259059+00:00",
+      "failure_count": 7
     },
     "DOV": {
       "status": "succeeded",
@@ -1716,38 +1716,162 @@
       "changed": false,
       "confidence": 0.0,
       "evidence_source_count": 1
+    },
+    "MRK": {
+      "status": "failed",
+      "last_attempt_at": "2026-08-27T23:47:08.912951+00:00",
+      "failure_count": 1
+    },
+    "COP": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:47:24.581516+00:00",
+      "changed": true,
+      "confidence": 1.0,
+      "evidence_source_count": 1
+    },
+    "PFE": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:47:33.301935+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "DAL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:47:39.836493+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "SNX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:47:48.020802+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "ALL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:47:55.695372+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "CHTR": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:03.270655+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "ABBV": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:10.149506+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "TJX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:17.123067+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "PRU": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:24.065006+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "HPQ": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:31.626029+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "UAL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:39.239712+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "PFGC": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:44.216420+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 2
+    },
+    "TSN": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:51.843756+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 3
+    },
+    "AAL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:48:58.800889+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "ORCL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:49:06.343602+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "EPD": {
+      "status": "succeeded",
+      "last_checked_at": "2026-08-27T23:49:13.340254+00:00",
+      "changed": true,
+      "confidence": 0.95,
+      "evidence_source_count": 1
     }
   },
   "retry_queue": [
     {
+      "ticker": "MRK",
+      "failure_count": 1,
+      "last_attempt_at": "2026-08-27T23:47:08.912951+00:00",
+      "next_retry_at": "2026-08-28T01:47:24.581472+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ntag_assessments.6.citations.0.quote\n  String should have at most 600 characters [type=string_too_long, input_value='The company also provide... and Home Again brands.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/"
+    },
+    {
       "ticker": "XOM",
-      "failure_count": 10,
-      "last_attempt_at": "2026-08-26T15:51:00.340822+00:00",
-      "next_retry_at": "2026-08-27T07:51:10.067248+00:00",
-      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...terial current impact.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+      "failure_count": 11,
+      "last_attempt_at": "2026-08-27T23:46:50.193379+00:00",
+      "next_retry_at": "2026-08-28T15:46:58.554054+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...ion of sustainability.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
     },
     {
       "ticker": "XEL",
-      "failure_count": 6,
-      "last_attempt_at": "2026-08-26T15:51:19.231119+00:00",
-      "next_retry_at": "2026-08-27T07:51:26.258938+00:00",
-      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...sustainability claims.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+      "failure_count": 7,
+      "last_attempt_at": "2026-08-27T23:46:58.554096+00:00",
+      "next_retry_at": "2026-08-28T15:47:04.259015+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...as purely sustainable.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
     },
     {
       "ticker": "NOV",
-      "failure_count": 6,
-      "last_attempt_at": "2026-08-26T15:51:32.092364+00:00",
-      "next_retry_at": "2026-08-27T07:51:37.474417+00:00",
-      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...actual business focus.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+      "failure_count": 7,
+      "last_attempt_at": "2026-08-27T23:47:04.259059+00:00",
+      "next_retry_at": "2026-08-28T15:47:08.912910+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p... sustainability focus.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
     }
   ],
   "last_run": {
-    "started_at": "2026-08-26T15:51:00.340809+00:00",
-    "completed_at": "2026-08-26T15:54:10.805490+00:00",
+    "started_at": "2026-08-27T23:46:50.193361+00:00",
+    "completed_at": "2026-08-27T23:49:22.639008+00:00",
     "status": "partial",
     "selected": 20,
-    "succeeded": 17,
-    "changed": 1,
-    "failed": 3
+    "succeeded": 16,
+    "changed": 2,
+    "failed": 4
   }
 }

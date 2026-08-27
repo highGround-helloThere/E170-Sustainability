@@ -2,6 +2,141 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "2cf76ed7-e785-432a-ad22-633f0f98d4cd",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "asset_type": "stock",
+      "published_at": "2026-08-27T23:47:24.581516+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "ConocoPhillips is a major crude oil and natural gas producer. The evidence bundle only contains a market profile describing its core fossil fuel business. There is no evidence supporting any sustainability tag, and the fossil fuel exclusion is clearly applicable.",
+      "confidence": 1.0,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 1.0,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids."
+            }
+          ],
+          "rationale": "The company's primary business is the extraction and production of crude oil and natural gas, which are fossil fuels. This clearly meets the exclusion criteria."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-27T23:47:24.581521+00:00",
+          "published_at": null,
+          "url": "https://www.conocophillips.com",
+          "content_sha256": "68685fe42a1df47321dfda50c4d7482e495b1338137e53cf5970637294cf664c",
+          "quotes": [
+            "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids."
+          ],
+          "excerpt": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "b4482cc9-3594-4478-8422-89726b5edf31",
+      "ticker": "EPD",
+      "name": "Enterprise Products Partners",
+      "asset_type": "stock",
+      "published_at": "2026-08-27T23:49:13.340254+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Enterprise Products Partners is a midstream energy company providing services for natural gas, NGLs, crude oil, petrochemicals, and refined products. Its operations are materially tied to fossil fuel transport and infrastructure, triggering the fossil_fuels exclusion. No evidence supports any sustainability categories.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "provides midstream energy services to producers and consumers of natural gas, natural gas liquids (NGLs), crude oil, petrochemicals, and refined products."
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "operates in four segments: NGL Pipelines & Services; Crude Oil Pipelines & Services; Natural Gas Pipelines & Services; and Petrochemical & Refined Products Services."
+            }
+          ],
+          "rationale": "The company's core business is midstream infrastructure for fossil fuels, including pipelines, storage, and processing, which constitutes material extraction, transport, and refining support."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-27T23:49:13.340268+00:00",
+          "published_at": null,
+          "url": "https://www.enterpriseproducts.com",
+          "content_sha256": "06cdcd3dc91a4a793e8dad804a76e278e8caeef053178be0b2e1dfa897519984",
+          "quotes": [
+            "provides midstream energy services to producers and consumers of natural gas, natural gas liquids (NGLs), crude oil, petrochemicals, and refined products.",
+            "operates in four segments: NGL Pipelines & Services; Crude Oil Pipelines & Services; Natural Gas Pipelines & Services; and Petrochemical & Refined Products Services."
+          ],
+          "excerpt": "provides midstream energy services to producers and consumers of natural gas, natural gas liquids (NGLs), crude oil, petrochemicals, and refined products. … operates in four segments: NGL Pipelines & Services; Crude Oil Pipelines & Services; Natural Gas Pipelines & Services; and Petrochemical & Refined Products Services."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "e3588d94-5b9f-4f58-9f4d-6a2ebb969097",
       "ticker": "ET",
       "name": "Energy Transfer",
