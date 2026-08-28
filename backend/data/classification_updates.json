@@ -2,6 +2,71 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "a1fd1870-a7b8-42bf-a8ef-0a9a329c0759",
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "asset_type": "stock",
+      "published_at": "2026-08-28T23:35:17.160229+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "PBF Energy is a petroleum refining company with no evidence of material sustainability operations in any supported category. Its core business is refining and supplying petroleum products, which directly conflicts with the fossil_fuels exclusion. No evidence supports any sustainability tag.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "engages in the refining and supplying of petroleum products"
+            }
+          ],
+          "rationale": "Core business is petroleum refining, which is explicitly listed in the exclusion definition."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-28T23:35:17.160243+00:00",
+          "published_at": null,
+          "url": "https://www.pbfenergy.com",
+          "content_sha256": "403ffc6c333ca1daa4636443ea9f6deebbb92c85c3b25ac0411b11ecd2e0cf36",
+          "quotes": [
+            "engages in the refining and supplying of petroleum products"
+          ],
+          "excerpt": "engages in the refining and supplying of petroleum products"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "2cf76ed7-e785-432a-ad22-633f0f98d4cd",
       "ticker": "COP",
       "name": "ConocoPhillips",
