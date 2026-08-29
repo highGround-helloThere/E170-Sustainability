@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-28T23:35:38Z",
+  "version": "2026-08-29T17:45:58Z",
   "scope": {
     "companies": "955 publicly traded companies with usable tickers from the 2024 Fortune 1000 dataset; private and untickered companies are retained by the source but cannot be queried through yfinance",
     "etfs": "100 largest U.S.-listed ETFs by assets at the recorded refresh date",
@@ -3281,7 +3281,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 117,
-      "rank": 217
+      "rank": 217,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:43:47.692429+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "AVGO",
@@ -3292,7 +3304,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 118,
-      "rank": 218
+      "rank": 218,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:43:54.737065+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "USFD",
@@ -3303,7 +3327,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 119,
-      "rank": 219
+      "rank": 219,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:02.893252+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "DHI",
@@ -3314,7 +3350,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 120,
-      "rank": 220
+      "rank": 220,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:11.054743+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "PM",
@@ -3325,7 +3373,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 121,
-      "rank": 221
+      "rank": 221,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:19.245093+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "PCAR",
@@ -3336,7 +3396,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 122,
-      "rank": 222
+      "rank": 222,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:29.873960+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 2
+      }
     },
     {
       "ticker": "CRM",
@@ -3361,7 +3433,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 124,
-      "rank": 224
+      "rank": 224,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:38.731414+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "JBL",
@@ -3372,7 +3456,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 125,
-      "rank": 225
+      "rank": 225,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:46.942426+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "LEN",
@@ -3383,7 +3479,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 126,
-      "rank": 226
+      "rank": 226,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:44:54.611291+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "LLY",
@@ -3394,7 +3502,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 127,
-      "rank": 227
+      "rank": 227,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:01.378357+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "MOH",
@@ -3405,7 +3525,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 128,
-      "rank": 228
+      "rank": 228,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:08.108943+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "CMI",
@@ -3416,7 +3548,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 129,
-      "rank": 229
+      "rank": 229,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:15.214148+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "BK",
@@ -3427,7 +3571,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 130,
-      "rank": 230
+      "rank": 230,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:21.476839+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "NFLX",
@@ -3438,7 +3594,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 131,
-      "rank": 231
+      "rank": 231,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:26.949662+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "TFC",
@@ -3449,7 +3617,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 132,
-      "rank": 232
+      "rank": 232,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:35.513276+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "ARW",
@@ -3460,7 +3640,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 133,
-      "rank": 233
+      "rank": 233,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:43.138895+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "MMM",
@@ -3471,7 +3663,19 @@
       "tags": [],
       "exclusions": [],
       "fortune_rank": 134,
-      "rank": 234
+      "rank": 234,
+      "classification": {
+        "status": "agent_verified",
+        "agent": "Green Canopy Sustainability Intelligence Agent",
+        "model": "deepseek-chat",
+        "policy_version": "2026-08-12.1",
+        "prompt_version": "classification-v2-exact-citations",
+        "verification": "independent_model_pass",
+        "verified_at": "2026-08-29T17:45:50.877122+00:00",
+        "last_changed_at": null,
+        "confidence": 0.0,
+        "evidence_source_count": 1
+      }
     },
     {
       "ticker": "V",
