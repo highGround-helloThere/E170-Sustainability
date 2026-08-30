@@ -2,6 +2,146 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "85fde67f-833a-4296-be52-cabb20ca78a5",
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "asset_type": "stock",
+      "published_at": "2026-08-30T18:04:14.985514+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "HF Sinclair is an independent energy company primarily engaged in petroleum refining and marketing, with a renewables segment producing renewable diesel. The evidence shows material fossil fuel refining operations, triggering the fossil_fuels exclusion. No evidence supports any of the sustainability categories.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others."
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states."
+            }
+          ],
+          "rationale": "The company is explicitly engaged in petroleum refining and marketing, producing gasoline, diesel, jet fuel, and operating refineries. This constitutes material fossil fuel refining and production, triggering the exclusion."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-30T18:04:14.985519+00:00",
+          "published_at": null,
+          "url": "https://www.hfsinclair.com",
+          "content_sha256": "91a21d981c4da4c379e5bc735740f1c60e4a2536a90629ed031ee6a90bba2ef9",
+          "quotes": [
+            "The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others.",
+            "It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states."
+          ],
+          "excerpt": "The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. … It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
+      "id": "ce9e1ba4-9344-4cb9-8a0d-f22f66aa9f03",
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "asset_type": "stock",
+      "published_at": "2026-08-30T18:05:47.498887+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Occidental Petroleum is a crude-oil and gas exploration and production company. Its business summary explicitly describes acquisition, exploration, and development of oil and gas properties, and midstream marketing of oil, NGLs, natural gas, and carbon dioxide. This constitutes material fossil-fuel extraction and production, triggering the fossil_fuels exclusion. No evidence supports any sustainability tag.",
+      "confidence": 1.0,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 1.0,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "engages in the acquisition, exploration, and development of oil and gas properties"
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power"
+            }
+          ],
+          "rationale": "The company's primary business is oil and gas exploration and production, and midstream marketing of oil, NGLs, and natural gas, which constitutes material fossil-fuel extraction and production."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-30T18:05:47.498900+00:00",
+          "published_at": null,
+          "url": "https://www.oxy.com",
+          "content_sha256": "d4b0a5bf6879063be992827fff31b80f6b7ed5844aaf68db084e2a543923a350",
+          "quotes": [
+            "engages in the acquisition, exploration, and development of oil and gas properties",
+            "purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power"
+          ],
+          "excerpt": "engages in the acquisition, exploration, and development of oil and gas properties … purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "a1fd1870-a7b8-42bf-a8ef-0a9a329c0759",
       "ticker": "PBF",
       "name": "PBF Energy",
