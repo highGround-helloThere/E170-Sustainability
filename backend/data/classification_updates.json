@@ -2,6 +2,71 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "f88eec9f-7705-4f77-b66b-89d6c075be71",
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "asset_type": "stock",
+      "published_at": "2026-08-31T20:03:35.869818+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "EOG Resources is a crude oil and natural gas exploration and production company. The evidence bundle only contains a market profile describing its core fossil fuel business. There is no evidence supporting any sustainability tags, and the fossil fuel exclusion is clearly applicable.",
+      "confidence": 1.0,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 1.0,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas"
+            }
+          ],
+          "rationale": "The company's primary business is the exploration, development, production, and marketing of crude oil and natural gas, which constitutes material fossil fuel extraction and production."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-08-31T20:03:35.869830+00:00",
+          "published_at": null,
+          "url": "https://www.eogresources.com",
+          "content_sha256": "d17d93df1f13143ad12b766d6a68cfc67785567f0ba314c462d5bd0f4e5edec4",
+          "quotes": [
+            "explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas"
+          ],
+          "excerpt": "explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "85fde67f-833a-4296-be52-cabb20ca78a5",
       "ticker": "DINO",
       "name": "HF Sinclair",
