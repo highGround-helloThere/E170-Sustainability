@@ -2,6 +2,76 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "67617e50-2c5c-4efd-aa56-1cf484504649",
+      "ticker": "LNG",
+      "name": "Cheniere Energy",
+      "asset_type": "stock",
+      "published_at": "2026-09-01T17:51:01.352322+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Cheniere Energy is an LNG infrastructure company operating LNG terminals and pipelines. Its business is directly tied to fossil fuel extraction, production, and transport, triggering the fossil_fuels exclusion. No evidence supports any sustainability tags.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "primarily engages in the liquefied natural gas (LNG) related businesses"
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "owns and operates the Sabine Pass LNG terminal"
+            }
+          ],
+          "rationale": "The company is directly involved in the production and transport of LNG, a fossil fuel, meeting the exclusion criteria."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-09-01T17:51:01.352335+00:00",
+          "published_at": null,
+          "url": "https://www.cheniere.com",
+          "content_sha256": "29605c308b393319487097d868a1f160aa9aa6f9b0bc33b086a0ef94cc280913",
+          "quotes": [
+            "primarily engages in the liquefied natural gas (LNG) related businesses",
+            "owns and operates the Sabine Pass LNG terminal"
+          ],
+          "excerpt": "primarily engages in the liquefied natural gas (LNG) related businesses … owns and operates the Sabine Pass LNG terminal"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "f88eec9f-7705-4f77-b66b-89d6c075be71",
       "ticker": "EOG",
       "name": "EOG Resources",
