@@ -2,6 +2,140 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "c53165c1-67e6-4b72-97f0-5a870d22cfe0",
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "asset_type": "stock",
+      "published_at": "2026-09-02T17:55:56.672967+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [
+        "climate",
+        "circular_economy"
+      ],
+      "added_tags": [
+        "climate",
+        "circular_economy"
+      ],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [],
+      "added_exclusions": [],
+      "removed_exclusions": [],
+      "summary": "Steel Dynamics is a steel producer and metal recycler using electric arc furnace (EAF) technology with recycled scrap as primary input, and has certified science-based GHG targets. Evidence supports circular economy and climate mitigation, but not renewable energy, fair labor, human rights, biodiversity, clean water, sustainable agriculture, or governance. Fossil fuels exclusion is not triggered as the company does not extract or produce fossil fuels.",
+      "confidence": 0.9,
+      "accepted_assessments": [
+        {
+          "category": "climate",
+          "action": "add",
+          "confidence": 0.8,
+          "evidence_ids": [
+            "official-page-1",
+            "official-page-2"
+          ],
+          "citations": [
+            {
+              "evidence_id": "official-page-1",
+              "quote": "In 2024, Steel Dynamics announced our certified, science-based greenhouse gas (GHG) emissions intensity targets for our steel mills. In alignment with the 1.5° C scenario set forth in the Paris Agreement, we set a 2050 emissions intensity target for our steel mills and an interim 2030 emissions intensity target."
+            },
+            {
+              "evidence_id": "official-page-2",
+              "quote": "Our steelmaking operations have exclusively used electric arc furnace (EAF) technology with recycled ferrous scrap as the primary input, to limit our carbon emissions while simultaneously delivering quality products for our customers, and driving returns for our shareholders."
+            }
+          ],
+          "rationale": "The company's core operations use EAF technology, which produces significantly lower carbon emissions than blast furnaces, and it has set certified science-based GHG reduction targets aligned with the Paris Agreement. These are material, demonstrated practices addressing climate mitigation."
+        },
+        {
+          "category": "circular_economy",
+          "action": "add",
+          "confidence": 0.9,
+          "evidence_ids": [
+            "market-profile",
+            "official-home"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services."
+            },
+            {
+              "evidence_id": "official-home",
+              "quote": "We operate using a circular manufacturing model, producing lower-carbon-emission, quality products with recycled scrap as the primary input."
+            }
+          ],
+          "rationale": "The company's business model is explicitly circular: it recycles scrap metal as primary input for steelmaking and has a dedicated metals recycling segment. This is a material, ongoing operation."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-09-02T17:55:56.672978+00:00",
+          "published_at": null,
+          "url": "https://www.steeldynamics.com",
+          "content_sha256": "1e28d426afe4131fe811f927a769923adf70fb80d11fb98b6db2cbaa15859101",
+          "quotes": [
+            "The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services."
+          ],
+          "excerpt": "The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services."
+        },
+        {
+          "id": "official-home",
+          "kind": "official_web",
+          "title": "Official website",
+          "source": "Official company or fund website",
+          "retrieved_at": "2026-09-02T17:55:59.266968+00:00",
+          "published_at": null,
+          "url": "https://www.steeldynamics.com",
+          "content_sha256": "6fa3481d62616bfe79e4e15ccc41b280967f6104d8e975353a6646a3b23867f3",
+          "quotes": [
+            "We operate using a circular manufacturing model, producing lower-carbon-emission, quality products with recycled scrap as the primary input."
+          ],
+          "excerpt": "We operate using a circular manufacturing model, producing lower-carbon-emission, quality products with recycled scrap as the primary input."
+        },
+        {
+          "id": "official-page-1",
+          "kind": "official_web",
+          "title": "Official sustainability page",
+          "source": "Official company or fund website",
+          "retrieved_at": "2026-09-02T17:56:00.999387+00:00",
+          "published_at": null,
+          "url": "https://www.steeldynamics.com/sustainability/",
+          "content_sha256": "ba443a5e8e77753c33f72bcf9a167f25f245a7cc37831243a6a118e8752415a7",
+          "quotes": [
+            "In 2024, Steel Dynamics announced our certified, science-based greenhouse gas (GHG) emissions intensity targets for our steel mills. In alignment with the 1.5° C scenario set forth in the Paris Agreement, we set a 2050 emissions intensity target for our steel mills and an interim 2030 emissions intensity target."
+          ],
+          "excerpt": "In 2024, Steel Dynamics announced our certified, science-based greenhouse gas (GHG) emissions intensity targets for our steel mills. In alignment with the 1.5° C scenario set forth in the Paris Agreement, we set a 2050 emissions intensity target for our steel mills and an interim 2030 emissions intensity target."
+        },
+        {
+          "id": "official-page-2",
+          "kind": "official_web",
+          "title": "Official sustainability page",
+          "source": "Official company or fund website",
+          "retrieved_at": "2026-09-02T17:56:03.153540+00:00",
+          "published_at": null,
+          "url": "https://www.steeldynamics.com/valuing-the-environment/",
+          "content_sha256": "18b204e9dbd5247c841fae12065f1a915869485e5441cfb7719250927ca8fe4b",
+          "quotes": [
+            "Our steelmaking operations have exclusively used electric arc furnace (EAF) technology with recycled ferrous scrap as the primary input, to limit our carbon emissions while simultaneously delivering quality products for our customers, and driving returns for our shareholders."
+          ],
+          "excerpt": "Our steelmaking operations have exclusively used electric arc furnace (EAF) technology with recycled ferrous scrap as the primary input, to limit our carbon emissions while simultaneously delivering quality products for our customers, and driving returns for our shareholders."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "67617e50-2c5c-4efd-aa56-1cf484504649",
       "ticker": "LNG",
       "name": "Cheniere Energy",
