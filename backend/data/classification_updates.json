@@ -2,6 +2,77 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "22d901c5-b5de-49e3-acf2-19d4372595ed",
+      "ticker": "NOV",
+      "name": "NOV",
+      "asset_type": "stock",
+      "published_at": "2026-09-03T17:50:37.545413+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "new_tags": [
+        "climate",
+        "renewable_energy"
+      ],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "NOV Inc. is primarily an oil and gas equipment and services company. Its business summary explicitly describes products and services for oil and gas drilling and production, with no material evidence of climate mitigation, renewable energy, or other sustainability categories. The fossil fuel exclusion is clearly applicable.",
+      "confidence": 0.95,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "designs, constructs, manufactures, and sells systems, components, and products for oil and gas drilling and production"
+            }
+          ],
+          "rationale": "The company's primary business is providing equipment and services for oil and gas drilling and production, which constitutes material involvement in fossil fuel extraction and production. The exclusion is clearly applicable."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-09-03T17:50:37.545417+00:00",
+          "published_at": null,
+          "url": "https://www.nov.com",
+          "content_sha256": "03d000b70f17dbfc32f997f27e21632cfc2c82ac905ccb4a0fdc6dcfd848c70d",
+          "quotes": [
+            "designs, constructs, manufactures, and sells systems, components, and products for oil and gas drilling and production"
+          ],
+          "excerpt": "designs, constructs, manufactures, and sells systems, components, and products for oil and gas drilling and production"
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "c53165c1-67e6-4b72-97f0-5a870d22cfe0",
       "ticker": "STLD",
       "name": "Steel Dynamics",
