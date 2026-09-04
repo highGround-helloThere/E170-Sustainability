@@ -696,8 +696,8 @@
     },
     "XOM": {
       "status": "failed",
-      "last_attempt_at": "2026-09-03T17:50:28.251249+00:00",
-      "failure_count": 18
+      "last_attempt_at": "2026-09-04T17:35:36.508080+00:00",
+      "failure_count": 19
     },
     "GOOGL": {
       "status": "succeeded",
@@ -2679,24 +2679,162 @@
       "changed": false,
       "confidence": 0.0,
       "evidence_source_count": 1
+    },
+    "J": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:35:44.465218+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "EIX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:35:51.136048+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "MGM": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:35:58.414939+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "ITW": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:04.596746+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "AMP": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:13.014239+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "PHM": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:17.823399+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "TRGP": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:24.348768+00:00",
+      "changed": true,
+      "confidence": 1.0,
+      "evidence_source_count": 1
+    },
+    "ALLY": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:31.948727+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "BWA": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:39.499851+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "EL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:46.865548+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "L": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:36:53.580903+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "ORLY": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:04.870879+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "MKL": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:13.077031+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "SWK": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:21.527233+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "MU": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:26.289246+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "LDOS": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:32.966543+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
+    },
+    "VTRS": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:37:39.720471+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 3
+    },
+    "KMI": {
+      "status": "failed",
+      "last_attempt_at": "2026-09-04T17:37:49.146944+00:00",
+      "failure_count": 1
+    },
+    "BAX": {
+      "status": "succeeded",
+      "last_checked_at": "2026-09-04T17:38:01.381098+00:00",
+      "changed": false,
+      "confidence": 0.0,
+      "evidence_source_count": 1
     }
   },
   "retry_queue": [
     {
+      "ticker": "KMI",
+      "failure_count": 1,
+      "last_attempt_at": "2026-09-04T17:37:49.146944+00:00",
+      "next_retry_at": "2026-09-04T19:38:01.381061+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'official...investments are minor.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+    },
+    {
       "ticker": "XOM",
-      "failure_count": 18,
-      "last_attempt_at": "2026-09-03T17:50:28.251249+00:00",
-      "next_retry_at": "2026-09-04T09:50:37.545371+00:00",
-      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_ids': ['market...ainability commitment.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+      "failure_count": 19,
+      "last_attempt_at": "2026-09-04T17:35:36.508080+00:00",
+      "next_retry_at": "2026-09-05T09:35:44.465180+00:00",
+      "last_error": "1 validation error for ClassificationDecision\ngreenwashing_flags.0\n  Input should be a valid string [type=string_type, input_value={'evidence_id': 'market-p...and actual operations.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
     }
   ],
   "last_run": {
-    "started_at": "2026-09-03T17:50:28.251237+00:00",
-    "completed_at": "2026-09-03T17:52:49.811005+00:00",
+    "started_at": "2026-09-04T17:35:36.508066+00:00",
+    "completed_at": "2026-09-04T17:38:08.709554+00:00",
     "status": "partial",
     "selected": 20,
-    "succeeded": 19,
+    "succeeded": 18,
     "changed": 1,
-    "failed": 1
+    "failed": 2
   }
 }

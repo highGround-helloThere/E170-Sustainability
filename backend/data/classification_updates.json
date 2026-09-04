@@ -2,6 +2,76 @@
   "schema_version": 1,
   "updates": [
     {
+      "id": "5abc55ed-dc78-4af4-8d7b-241c4c489d6a",
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "asset_type": "stock",
+      "published_at": "2026-09-04T17:36:24.348768+00:00",
+      "agent": "Green Canopy Sustainability Intelligence Agent",
+      "model": "deepseek-chat",
+      "policy_version": "2026-08-12.1",
+      "prompt_version": "classification-v2-exact-citations",
+      "verification": "independent_model_pass",
+      "old_tags": [],
+      "new_tags": [],
+      "added_tags": [],
+      "removed_tags": [],
+      "old_exclusions": [],
+      "new_exclusions": [
+        "fossil_fuels"
+      ],
+      "added_exclusions": [
+        "fossil_fuels"
+      ],
+      "removed_exclusions": [],
+      "summary": "Targa Resources is an oil and gas midstream company involved in gathering, processing, transporting, and selling natural gas, NGLs, and crude oil. Its operations are squarely within fossil fuel infrastructure, triggering the fossil_fuels exclusion. No evidence supports any sustainability categories.",
+      "confidence": 1.0,
+      "accepted_assessments": [
+        {
+          "category": "fossil_fuels",
+          "action": "add",
+          "confidence": 1.0,
+          "evidence_ids": [
+            "market-profile"
+          ],
+          "citations": [
+            {
+              "evidence_id": "market-profile",
+              "quote": "involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products"
+            },
+            {
+              "evidence_id": "market-profile",
+              "quote": "gathering, storing, terminaling, purchasing, and selling crude oil."
+            }
+          ],
+          "rationale": "The company's core business is the gathering, processing, transport, and sale of natural gas, NGLs, and crude oil, which constitutes material fossil fuel infrastructure and operations."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "market-profile",
+          "kind": "market_profile",
+          "title": "Yahoo Finance company or fund profile",
+          "source": "Yahoo Finance via yfinance",
+          "retrieved_at": "2026-09-04T17:36:24.348782+00:00",
+          "published_at": null,
+          "url": "https://www.targaresources.com",
+          "content_sha256": "0e2a6094f6680249c5d457b8b23725ab5eda5f4901dc6d7938f7b3df1c403826",
+          "quotes": [
+            "involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products",
+            "gathering, storing, terminaling, purchasing, and selling crude oil."
+          ],
+          "excerpt": "involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products … gathering, storing, terminaling, purchasing, and selling crude oil."
+        }
+      ],
+      "greenwashing_flags": [],
+      "evidence_limitations": [
+        "Evidence is limited to retrievable market data, fund holdings, and issuer-controlled sources.",
+        "Exact quotes are program-verified, but the Agent's interpretation can still be wrong."
+      ],
+      "portfolio_impact": "Saved Green Canopy portfolios containing this security may show a different alignment score. Allocations are not changed automatically."
+    },
+    {
       "id": "22d901c5-b5de-49e3-acf2-19d4372595ed",
       "ticker": "NOV",
       "name": "NOV",
